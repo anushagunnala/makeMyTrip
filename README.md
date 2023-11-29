@@ -19,7 +19,7 @@ Admin Dashboard
 ![deam destine](https://github.com/patil-sandhya/shocking-grade-9442/assets/117443062/4c69a57f-0746-4414-9899-04f968eee8c4)
 
 # Sign Up Page
-The Sign Up page is designed to allow new users to create an account on our website. Users can provide their necessary details, such as name, email address, city, state and password.
+The sign-up page is designed to allow new users to create an account on our website. Users can provide their necessary details, such as name, email address, city, state and password.
 ![Screenshot 2023-06-18 192917](https://github.com/patil-sandhya/shocking-grade-9442/assets/117443062/c158e3ea-3801-4c2e-838f-b237de98e4f3)
 
 # Login Page
@@ -29,7 +29,7 @@ It typically includes fields for users to enter their email address and password
 # Landing Page
 ![Screenshot 2023-06-19 003151](https://github.com/patil-sandhya/shocking-grade-9442/assets/117443062/912fd53b-9249-431d-adbe-a59ddb0c390b)
 # Home Page
-This is home page
+This is the home page
 ![Screenshot 2023-06-18 231056](https://github.com/patil-sandhya/shocking-grade-9442/assets/117443062/6169aec1-83e8-4443-ae8b-01d026087f2c)
 
 
@@ -42,21 +42,21 @@ Hotel nav bar and search container
 ![Screenshot (1475)](https://github.com/patil-sandhya/shocking-grade-9442/assets/119441119/1c57f01e-9eae-4d43-921b-12a329c50a18)
 
 
-sort by the Price and the Near location
+sort by the Price and the Nearest location
 
-filter by the their review
+filter by their review
 
 ![Screenshot (1475)](https://github.com/patil-sandhya/shocking-grade-9442/assets/119441119/1c57f01e-9eae-4d43-921b-12a329c50a18)
 
-Card page have the hotels details and their price 
-and click on the Book now Button hotel book and redirect to cart page
+The card page have the hotel details and their price 
+and click on the Book Now button hotel book and redirect to the cart page
 
 ![Screenshot (1476)](https://github.com/patil-sandhya/shocking-grade-9442/assets/119441119/6e27a347-24a7-45d4-8907-05a5a01e9c25)
 
 #Card page 
-In the card page you can see the hotel image and details 
+On the card page, you can see the hotel image and details 
 You can increase the day 
-you can add guest also
+you can add guests also
 
 
 ![Screenshot (1477)](https://github.com/patil-sandhya/shocking-grade-9442/assets/119441119/c03bd133-f07e-45cc-8481-1a32f93bbf4a)
@@ -95,7 +95,7 @@ This feature enables users to sort the tour destinations based on their prices. 
 
 ### Github Link :
 
-**[Github Link]()**
+**[Github Link](https://github.com/anushagunnala/Tour-Agency)**
 
 
 ### Netlify Link :
