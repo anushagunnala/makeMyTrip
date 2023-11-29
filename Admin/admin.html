@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/admin.css">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Admin Dashboard</title>
+    <link rel="icon" href="./Images/dremDestine.png">
+</head>
+<body>
+    <div class="container">
+        <!-- -------------------- ASIDE -------------------------- -->
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <img src="./Images/dremDestine.png" alt="logo">
+                    <!-- name of the website -->
+                    
+                    <div class="close" id="close-btn">
+                        <span class="material-icons-sharp">close</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sidebar">
+                <a href="./admin.html">
+                    <span class="material-icons-sharp">grid_view</span>
+                    <h3>Dashboard</h3>
+                </a>
+                <a href="./customer.html">
+                    <span class="material-icons-sharp">person_outline</span>
+                    <h3>Customers</h3>
+                </a>
+                <a href="./hotel_admin.html">
+                    <span class="material-icons-sharp">domain</span>
+                    <h3>Hotel</h3>
+                </a>
+               
+                <a href="./destination_admin.html">
+                    <span class="material-icons-sharp">room</span>
+                    <h3>Destination</h3>
+                </a>
+                
+               
+                <a href="../index.html">
+                    <span class="material-icons-sharp">logout</span>
+                    <h3>Logout</h3>
+                </a>
+            </div>
+        </aside>
+
+        
+        <!-- ------------------------  MAIN --------------------------- -->
+        <main>
+            <h1>Dashboard</h1>
+            <div class="chart">
+                <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+            </div>
+            <!-- ------------------------- ADD Service -------------------- -->
+            <div class="modify">
+                <div class="add">
+                    <h1>Add Hotel</h1>
+                    <p>add details of the hotel here !</p>
+                </div>
+                <div class="plus-btn">
+                    <a href="./addHotel.html">
+                        <span class="material-icons-sharp">add</span>
+                    </a>
+                </div>
+            </div>
+
+
+            <!-- ------------------------- EDIT Service -------------------- -->
+            <div class="modify">
+                <div class="edit">
+                    <h1>Add Destination</h1>
+                    <p>add more destination here !</p>
+                </div>
+                <div class="edit-btn">
+                    <a href="./addDestination.html">
+                        <span class="material-icons-sharp">add</span>
+                    </a>
+                </div>
+            </div>
+
+
+             <div class="insights">
+                
+
+                
+            </div>
+
+        </main>
+
+
+        <!-- ---------------------------------- RIGHT SECTION ----------------------------------- -->
+        <div class="right">
+            <div class="top">
+                <button id="menu-btn">
+                    <span class="material-icons-sharp">menu</span>
+                </button>
+                <div class="profile">
+                    <div class="info">
+                        <p>Hey, <b>Admin</b></p>
+                        <small class="text-muted">Admin</small>
+                    </div>
+                    <div class="profile-photo">
+                        <img src="./Images/adminImg.jpg" alt="admin-photo">
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </div>
+</body>
+<script src="./Script/admin.js"></script>
+</html>

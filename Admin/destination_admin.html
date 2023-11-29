@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/hotel.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="icon" href="./Images/dremDestine.png">
+
+    <title>Destination</title>
+</head>
+<body>
+    <div class="container">
+        <!-- -------------------- ASIDE -------------------------- -->
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <img src="./Images/dremDestine.png" alt="logo">
+                    <!-- name of the website -->
+                    
+                    <div class="close" id="close-btn">
+                        <span class="material-icons-sharp">close</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sidebar">
+                <a href="./admin.html">
+                    <span class="material-icons-sharp">grid_view</span>
+                    <h3>Dashboard</h3>
+                </a>
+                <a href="./customer.html">
+                    <span class="material-icons-sharp">person_outline</span>
+                    <h3>Customers</h3>
+                </a>
+                <a href="./hotel_admin.html">
+                    <span class="material-icons-sharp">domain</span>
+                    <h3>Hotel</h3>
+                </a>
+               
+                <a href="./destination_admin.html">
+                    <span class="material-icons-sharp">room</span>
+                    <h3>Destination</h3>
+                </a>
+                
+               
+                <a href="../index.html">
+                    <span class="material-icons-sharp">logout</span>
+                    <h3>Logout</h3>
+                </a>
+            </div>
+        </aside>
+
+        
+        <!-- ------------------------  MAIN --------------------------- -->
+        <main>
+            <div id="headSection">
+                <h1>Destination</h1>
+                <div class="topright">
+                   
+                    <button class="sortBtn" id="lth">Price Low To High</button> 
+                    <button class="sortBtn" id="htl">Price High To Low</button> 
+                </div>
+                
+            </div>
+            
+            <div id="product-container">
+                
+            </div>
+            <div id="pagination">
+                
+            </div>
+
+        </main>
+
+
+        <!-- ---------------------------------- RIGHT SECTION ----------------------------------- -->
+        
+    </div>
+</body>
+<script src="./Script/destination.js"></script>
+</html>
