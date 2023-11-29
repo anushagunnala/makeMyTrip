@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js" integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="./style/hotel.css">
+    <link rel="icon" href="./Admin/Images/dremDestine.png"> 
+    <title>Dream Destine</title>
+</head>
+<body>
+ 
+    <nav>
+        <div id="logo">
+            <a href="index.html"><Img src="Images/deam destine.png"></Img></a>
+         </div> 
+         <div class="tags">
+            <a href="./home.html">HOME</a>
+            <a href="./hotel.html">HOTEL</a>
+            <a href="./destination.html">DESTINATION</a>
+            <a href="#contact">CONTACT</a>
+            <a href="#About">ABOUT US</a>
+         </div>
+    </nav>
+
+<div id="search-container">
+   <div id="innerdiv" class="d-flex p-2 d-flex justify-content-evenly">
+    <div id="location">
+        <select name="" id="local" class="size">
+            <option value="">Area , Locatin</option>
+            <option value="Wonderful">Singapore</option>
+            <option value="Excellent">New York</option>
+            <option value="Very Good">England</option>
+            <option value="Good">Delhi</option>
+
+        </select>
+    </div>
+    <div id="date">
+    <label for="date"><span class="text-primary">Check In</span>
+        <input type="date" id="start" class="size">
+    </label>
+    </div>
+    <div>
+    <label for="date"> <span class="text-primary">Check Out</span>
+        <input type="date" id="end" class="size">
+    </label>
+</div>
+    <div id="room">
+        <select name="guest" id="guest" class="size">
+            <option value="">Guest</option>
+            <option value="adult">Adult 2</option>
+            <option value="child">Child</option>
+        </select>
+    </div>
+   </div>
+
+   <div id="search">
+    <input type="text" placeholder="search hotel" id="search-input">
+    <button id="search-btn">Search</button>
+   </div>
+</div>
+<div id="sort">
+    <h4>SORT BY :</h4>
+    <button id="dist">Nearby me</button>
+    <button id="atoz">Price Low to High</button>
+    <button id="ztoa">Price High to Low</button>
+</div>
+<div id="produnct" class="bg-light bg-gradient">
+   
+    <div id="left">
+        <div id="filterPart">
+            <p>Filter by:</p>
+
+            <div id="reviewfilter">
+                <select name="" id="filter">
+                    <option value="">Review</option>
+                    <option value="Wonderful">Wonderful</option>
+                    <option value="Excellent">Excellent</option>
+                    <option value="Very Good">Very Good</option>
+                    <option value="Good">Good</option>
+
+                </select>
+
+            </div>
+
+            <hr>
+        </div>
+        <div id="discount">
+          
+            <div id="star">
+                <div> 
+                    <input type="checkbox" id="twoStar" class="checkbox"><span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star "></span>
+                    <span class="fa fa-star "></span>
+                    <span class="fa fa-star"></span>
+                </div>
+                <div>
+                    <input type="checkbox" id="threeStar" class="checkbox"><span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star "></span>
+                    <span class="fa fa-star"></span>
+                </div>
+                <div>
+                    <input type="checkbox" id="fourStar" class="checkbox"><span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+                <div>
+                    <input type="checkbox" id="fiveStar" class="checkbox"><span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                <div>
+                    <input type="checkbox" class="checkbox"><span>Not classified</span>
+                </div>
+                <div>
+                    <input type="checkbox" class="checkbox"><span>Swiss Lodge</span>
+                </div>
+
+            </div>
+            </div>
+            <div id="experience">
+                <p>Experiences</p>
+                <div>
+                    <input type="checkbox" class="checkbox1"><span>City Trip Hotels</span>
+                </div>
+                <div>
+                    <input type="checkbox" class="checkbox1"><span>Wellness & Spa Hotels</span>
+                </div>
+                <div>
+                    <input type="checkbox" class="checkbox1"><span>Design, Lifestyle </span>
+                </div>
+                <div>
+                    <input type="checkbox" class="checkbox1"><span>Waterfront hotels</span>
+                </div>
+                <div>
+                    <input type="checkbox" class="checkbox1"><span>Hiking Hotels</span>
+                </div>
+                <div>
+                    <input type="checkbox" class="checkbox1"><span>Historical Hotels</span>
+                </div>
+                <div>
+                    <input type="checkbox" class="checkbox1"><span>Country Hotels</span>
+                </div>
+            </div>
+
+            <div id="amenities">
+                <p>Amenities</p>
+                <div>
+                    <input type="checkbox" class="checkbox1"><span>Air condition</span>
+                </div>
+                <div>
+                    <input type="checkbox" class="checkbox1"><span>Elevator</span>
+                </div>
+                <div>
+                    <input type="checkbox" class="checkbox1"><span>Breakfast</span>
+                </div>
+                <div>
+                    <input type="checkbox" class="checkbox1"><span>Breakfast buffet</span>
+                </div>
+                <div>
+                    <input type="checkbox" class="checkbox1"><span>Breakfast in the room</span>
+                </div>
+                <div>
+                    <input type="checkbox" class="checkbox1"><span>Restaurant</span>
+                </div>
+              
+            </div>
+
+            <div id="region">
+                <p>Regions</p>
+                <div>
+                    <input type="checkbox" class="checkbox1"><span>Switzerland</span>
+                </div>
+                <div>
+                    <input type="checkbox" class="checkbox1"><span>Aargau</span>
+                </div>
+                <div>
+                    <input type="checkbox" class="checkbox1"><span>Basel (region)</span>
+                </div>
+                <div>
+                    <input type="checkbox" class="checkbox1"><span>Bern (region)</span>
+                </div>
+                <div>
+                    <input type="checkbox" class="checkbox1"><span>Bernese Oberland </span>
+                </div>
+                <div>
+                    <input type="checkbox" class="checkbox1"><span>Eastern Switzerland</span>
+                </div>
+                <div>
+                    <input type="checkbox" class="checkbox1"><span>Fribourg (region)</span>
+                </div>
+                <div>
+                    <input type="checkbox" class="checkbox1"><span>Graubünden</span>
+                </div>
+                <div>
+                    <input type="checkbox" class="checkbox1"><span>ura and Three-Lakes</span>
+                </div>
+                <div>
+                    <input type="checkbox" class="checkbox1"><span>Lake Constance</span>
+                </div>
+                <div>
+                    <input type="checkbox" class="checkbox1"><span>Lake Geneva region</span>
+                </div>
+                <div>
+                    <input type="checkbox" class="checkbox1"><span>Ticino</span>
+                </div>
+                <div>
+                    <input type="checkbox" class="checkbox1"><span>Valais</span>
+                </div>
+                <div>
+                    <input type="checkbox" class="checkbox1"><span>Zurich (region)</span>
+                </div>
+            </div>
+
+            <div id="rate">
+                <p>Rating</p>
+                <div>
+                    <input type="checkbox" class="checkbox1"><span>Excellent (4.4+)</span>
+                </div>
+                <div>
+                    <input type="checkbox" class="checkbox1"><span>Very Good (4.1 – 4.3)</span>
+                </div>
+                <div>
+                    <input type="checkbox" class="checkbox1"><span>Good (3.8 – 4.0)</span>
+                </div>
+                <div>
+                    <input type="checkbox" class="checkbox1"><span>Fair (3.5 – 3.7)</span>
+                </div>
+                <div>
+                    <input type="checkbox" class="checkbox1"><span>No rating</span>
+                </div>
+            </div>
+
+            <div id="recent">
+                <p>Latest Hotels</p>
+                <div>
+                    <input type="checkbox" class="checkbox1"><span>Recently added hotels</span>
+                </div>
+            </div>
+            <div id="favourite">
+                <p>Favourite hotels</p>
+                <div>
+                    <input type="checkbox" class="checkbox1"><span>Members favourites</span>
+                </div>
+            </div>
+        </div>
+    <div id="right">
+        <div id="container"></div>
+        <div id="pagination"></div>
+    </div>
+</div>
+
+<!-- ===============footer================= -->
+<footer>
+    <div class="footer-container">
+      <div class="footer-section">
+        <h3>Dream Destine</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam commodo turpis auctor interdum.</p>
+      </div>
+      <div class="footer-section">
+         <h4>Welcome</h4>
+        <ul class="footer-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Contact Us</h4>
+        <p>123 Main Street, City, Country</p>
+        <p>Email: info@example.com</p>
+        <p>Phone: +1 234 5678</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2023 | All rights reserved by Dream Destine</p>
+    </div>
+    <div class="Website">
+      <div><a href="https://www.facebook.com/login/"><img src="Images/facebooklogo.png"> </a></div>
+      <div><a href="https://in.linkedin.com/"><img src="Images/linkdenlogo.png"></a></div>
+      <div><a href="https://www.instagram.com/"><img src="Images/instalogo.png"></a></div>
+      <div><a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D"><img src="Images/twitterlogo.png"></a></div>
+    </div>
+  </footer>
+</body>
+<script src="./scripts/hotel.js"></script>
+</html>
