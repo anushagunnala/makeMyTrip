@@ -1,4 +1,4 @@
-# Tour-Agency
+# makeMyTrip
 
 # Project Name :- Dream Destine.
 # What is Dream Destine?
@@ -48,7 +48,7 @@ filter by their review
 
 ![Screenshot (1475)](https://github.com/patil-sandhya/shocking-grade-9442/assets/119441119/1c57f01e-9eae-4d43-921b-12a329c50a18)
 
-The card page have the hotel details and their price 
+The card page has the hotel details and their price 
 and click on the Book Now button hotel book and redirect to the cart page
 
 ![Screenshot (1476)](https://github.com/patil-sandhya/shocking-grade-9442/assets/119441119/6e27a347-24a7-45d4-8907-05a5a01e9c25)
